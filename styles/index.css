@@ -1,6 +1,6 @@
-#title, .about, ul.tree {
+#title, .about, ul.tree, .more {
 	font-family: 'DotGothic16', sans-serif;
-	width: 75%;
+	font-weight: d;
 }
 
 .app {
@@ -32,13 +32,14 @@ section dl {
 }
 
 #aboutMe {
-	 font-family: "Courier Prime", monospace;
+	font-family: "Courier Prime", monospace;
 	display: block;
 	margin: 5px;
 }
 
 .contain {
 	width: 100%;
+	display: block;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -49,11 +50,13 @@ section dl {
 
 .contain .c1 img{
 	position: relative;
-	width: 12.5%;
-	height: 350px;
+	width: 10%;
+	height: 300px;
 	margin: auto;
 	float: left;
-	border-radius: 5px;
+	border-radius: 2.5px;
+	border-right: 2px solid #2BC0BB;
+	padding-right: 5px;
 }
 .contain .c2{
 	position: relative;
@@ -66,18 +69,25 @@ section dl {
 	clear: both;
 	display: table;
 }
-.contain .c2 {
-	color: red;
-}
 
 .more {
 	float: left;
 	display: block;
 }
+.more h3 {
+	margin: 2.5px;
+}
 a:visited, a:active, a:checked, a:any-link {
 	text-decoration: none;
 	color: #2BC0BB;
 }
+#title img { width: 33%;
+	border-bottom: 2.5px solid #2BC0BB;
+	padding: 2.5px;
+	margin: auto;
+	
+}
+
 ul.tree, ul.tree ul {
     list-style: none;
      margin: 0;
@@ -91,10 +101,13 @@ ul.tree, ul.tree ul {
      padding: 0 7px;
      line-height: 20px;
 	 color: #2BC0BB;
-     font-weight: bold;
+     font-weight: 500;
      border-left:1px solid rgb(100,100,100);
-
    }
+	ul.tree li a:hover{
+	background-color: black;
+	color:#33FF33; 
+	}
 
    ul.tree li:last-child {
        border-left:none;
