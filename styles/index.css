@@ -71,6 +71,10 @@ section dl {
 	float: left;
 	display: block;
 }
+a:visited {
+	text-decoration: none;
+	color: #2BC0BB;
+}
 ul.tree, ul.tree ul {
     list-style: none;
      margin: 0;
