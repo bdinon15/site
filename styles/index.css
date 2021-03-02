@@ -1,10 +1,5 @@
-@font-face {
-	font-family: DotGothic;
-	src: url(DotGothic16-Regular.ttf)
-}
-
-#title, .about, .tree {
-	font-family: DotGothic;
+#title, .about, ul.tree {
+	font-family: 'DotGothic16', sans-serif;
 	width: 75%;
 }
 
