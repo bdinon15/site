@@ -17,18 +17,14 @@ section dl {
 	margin: 2.5px;
 	padding: 0px;
 }
-
+.containerAbt {
+	width: 80%;
+}
 .about { 
 	width: 50%;
+	display: block;
 }
-.pdf {
-	float: right;
-	align-content: center;
-	align-content: center;
-	margin: auto;
-	width: 50%;
-	display: inline-block;
-}
+
 .about h3{
 	margin: 1.5px;
 	display: block;
@@ -36,12 +32,15 @@ section dl {
 }
 
 #aboutMe {
-	display: block;
-	width: 33%;
-	margin: 5px;
 	 font-family: "Courier Prime", monospace;
+	display: block;
+	margin: 5px;
 }
 
+.more {
+	float: left;
+	display: block;
+}
 ul.tree, ul.tree ul {
     list-style: none;
      margin: 0;
