@@ -71,7 +71,7 @@ section dl {
 	float: left;
 	display: block;
 }
-a:visited {
+a:visited, a:active, a:checked, a:any-link {
 	text-decoration: none;
 	color: #2BC0BB;
 }
