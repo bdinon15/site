@@ -13,15 +13,18 @@ section dl {
 	padding: 0px;
 }
 
-.containerAbt {
-	width: 80%;
-}
-
 .about { 
-	width: 45%;
+	width: 33%;
 	display: block;
+	text-align: justify;
 }
-
+@media only screen and (max-width: 1000px) {
+  .about { 
+	width: 66%;
+	display: block;
+	text-align: justify;
+}
+}
 .about h3{
 	margin: 1.5px;
 	display: block;
@@ -56,7 +59,7 @@ section dl {
 	position: relative;
 	float: left;
 	width: 50%;
-	padding: 0px;
+	margin-left: 5px;
 }
 .contain::after {
 	content: "";
@@ -123,7 +126,7 @@ ul.tree, ul.tree ul {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background: #2098d1;
+  background: black;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
