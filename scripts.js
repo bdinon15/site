@@ -37,3 +37,19 @@ function router() {
 function ios() {
 	document.getElementById("cisco").innerHTML = "Cisco iOS";
 }
+
+function dsadd() {
+	document.getElementById("AD").innerHTML = "dsadd user 'cn=..'";
+}
+
+function AD() {
+	document.getElementById("AD").innerHTML = "AD/DS";
+}
+
+function systemctl() {
+	document.getElementById("kali").innerHTML = "sudo su -";
+}
+
+function linux() {
+	document.getElementById("kali").innerHTML = "Kali/Fedora";
+}
