@@ -29,3 +29,11 @@ function bash() {
 function bin() {
 	document.getElementById("bash").innerHTML = "BASH";
 }
+
+function router() {
+	document.getElementById("cisco").innerHTML = "router ospf 1";
+}
+
+function ios() {
+	document.getElementById("cisco").innerHTML = "Cisco iOS";
+}

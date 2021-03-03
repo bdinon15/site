@@ -31,7 +31,7 @@ section dl {
 	padding: .5px;
 }
 
-#aboutMe {
+#aboutMe, .more{
 	font-family: "Courier Prime", monospace;
 	display: block;
 	margin: 5px;
@@ -73,6 +73,7 @@ section dl {
 .more {
 	float: left;
 	display: block;
+	width: 33%;
 }
 .more h3 {
 	margin: 2.5px;
