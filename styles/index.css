@@ -1,4 +1,4 @@
-#title, .about, ul.tree, .more {
+#title, .about, ul.tree, .more h3 {
 	font-family: 'DotGothic16', sans-serif;
 	font-weight: d;
 }
@@ -74,6 +74,7 @@ section dl {
 	float: left;
 	display: block;
 	width: 33%;
+	margin: 0px;
 }
 .more h3 {
 	margin: 2.5px;
