@@ -67,19 +67,29 @@
 .more {
 	float: left;
 	display: block;
-	width: 33%;
+	width: 50%;
 }
 .more dl, .more dt {
 	margin: 2.5px;
 }
 
-.more h3, .more p {
+.more h3 {
+	margin: 2.5px;
+	padding: 0px;
+	width: 100%;
+}
+
+.more p {
 	margin: 2.5px;
 	padding: 0px;
 }
-
 .more img {
-	width: 33%;
+	width: 23%;
+}
+@media only screen and (max-width: 1000px) {
+.more img {
+	width: 50%;
+}
 }
 
 a:visited, a:active, a:checked, a:any-link {
