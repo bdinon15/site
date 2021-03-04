@@ -39,7 +39,7 @@ function ios() {
 }
 
 function dsadd() {
-	document.getElementById("AD").innerHTML = "dsadd user ..";
+	document.getElementById("AD").innerHTML = "dsadd user";
 }
 
 function AD() {

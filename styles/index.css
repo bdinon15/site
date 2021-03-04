@@ -6,7 +6,7 @@
 .about { 
 	width: 33%;
 	display: block;
-	text-align: justify;
+	text-align: left;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -26,7 +26,7 @@
 #aboutMe, .more{
 	font-family: "Courier Prime", monospace;
 	display: block;
-	margin: 5px;
+	margin: 2.5px;
 }
 
 .contain {
@@ -69,9 +69,17 @@
 	display: block;
 	width: 33%;
 }
-
-.more h3 {
+.more dl, .more dt {
 	margin: 2.5px;
+}
+
+.more h3, .more p {
+	margin: 2.5px;
+	padding: 0px;
+}
+
+.more img {
+	width: 33%;
 }
 
 a:visited, a:active, a:checked, a:any-link {
