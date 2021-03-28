@@ -13,7 +13,11 @@
   .about { 
 	width: 66%;
 	display: block;
-	text-align: justify;
+	text-align: left;
+	}
+	.more {
+		text-align: left;
+		width: 75%;
 	}
 }
 
@@ -27,6 +31,9 @@
 	font-family: "Courier Prime", monospace;
 	display: block;
 	margin: 2.5px;
+}
+.more {
+	text-align: left;
 }
 
 .contain {
